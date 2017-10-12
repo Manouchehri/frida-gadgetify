@@ -5,7 +5,7 @@ setup(
 	version="0.1",
 	url="https://github.com/Manouchehri/frida-gadgetify",
 	author="David Manouchehri",
-	description=("Binary injection tool for Frida")
+	description=("Binary injection tool for Frida"),
 	keywords="binary injection frida reverse engineering",
 	py_modules=["frida-gadgetify"],
 	install_requires=[

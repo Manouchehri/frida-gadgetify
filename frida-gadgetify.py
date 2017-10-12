@@ -43,8 +43,6 @@ def main():
 
 	# Fetch the first NEEDED tag (which has a duplicate at the end)
 	injected_tag = new_binary.dynamic_entry_from_tag(lief.ELF.DYNAMIC_TAGS.NEEDED)
-
-	# @TODO: Grow the .dynstr size properly.
 	injected_tag.name = frida_filename
 
 	# (•_•) ( •_•)>⌐■-■ (⌐■_■)
